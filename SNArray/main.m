@@ -11,15 +11,15 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
     
     
-    NSMutableArray *mArray = [[NSMutableArray alloc]init];
+    NSMutableArray *mutableArray = [[NSMutableArray alloc]init];
 
-    [mArray addObject:@"Shriraj"];
-    [mArray addObject:@"Hello World"];
-    [mArray addObject:@"Hi"];
-    [mArray addObject:@"Hello Earth"];
-    [mArray addObject:@"Hacker rank"];
+    [mutableArray addObject:@"Shriraj"];
+    [mutableArray addObject:@"Hello World"];
+    [mutableArray addObject:@"Hi"];
+    [mutableArray addObject:@"Hello Earth"];
+    [mutableArray addObject:@"Hacker rank"];
         
-        NSLog(@"%@",mArray);
+        NSLog(@"%@",mutableArray);
         
     
     
